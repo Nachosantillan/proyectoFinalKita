@@ -1,0 +1,457 @@
+.styleCard {
+  justify-content: center;
+}
+
+.styleTitleCard {
+  color: lightgoldenrodyellow;
+  font-size: 15px;
+  text-align: center;
+  transition: 1s;
+  -webkit-animation: bounceIn;
+          animation: bounceIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.styleSubtitleCard {
+  font-weight: bold;
+  font-style: italic;
+  line-height: 9px;
+  text-align: center;
+}
+
+.styleButtonCard {
+  color: grey;
+  background-color: black;
+  text-align: center;
+  transition: 0.7s;
+}
+.styleButtonCard:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
+
+.bg-black {
+  background-color: black;
+  color: grey;
+}
+
+#siteHeader .miLogo {
+  background: url("../IMAGENES/kita.png") no-repeat;
+  width: 60px;
+  height: 45px;
+  background-size: cover;
+}
+
+.nav-link {
+  transition: 500ms;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.dropdown-item {
+  color: white;
+  background-color: #992323;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+.titlePrincipalPage {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.imagenQueVasAOrdenar {
+  height: 90px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.content-select .seleccionarQueQuiero {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.content-select {
+  max-width: 200px;
+  position: relative;
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.content-select .seleccionarQueQuiero {
+  width: 100%;
+  max-height: 60px;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 42px;
+  background: black;
+  color: #7b7b7b;
+  font-size: 1em;
+  color: #999;
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  position: relative;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+
+.content-select .seleccionarQueQuiero:hover {
+  background: black;
+}
+
+.content-select i {
+  position: absolute;
+  right: 15px;
+  top: calc(50% - -6px);
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid grey;
+  transform: rotate(-45deg);
+  /* Giramos el cuadrado */
+  transition: all 0.25s ease;
+}
+
+.content-select:hover i {
+  margin-top: 2px;
+}
+
+#buttonsSelection {
+  align-items: center;
+  text-align: center;
+}
+
+#buttonsSelection button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border-color: black;
+}
+
+#miniImagenMenu {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.body {
+  min-height: 100vh;
+}
+
+* {
+  margin: 4;
+  padding: 4;
+}
+
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.modal-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modalcito {
+  background-color: black;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 22px;
+  visibility: visible;
+}
+
+.imagenModal1 {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.buttonModalcito {
+  color: grey;
+  background-color: black;
+  border-radius: 50px;
+  border-color: black;
+  transition: 3s;
+}
+
+.carritoCompras {
+  min-height: 2vh;
+  margin: 2vh;
+}
+
+.carritoCompras button img {
+  max-height: 4vh;
+}
+
+.buttonImagenModalcito {
+  color: black;
+  background-color: black;
+  border-color: black;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+
+a {
+  transition: 1s;
+}
+
+.footer a:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 200px) {
+  .footer a {
+    font-size: 6px;
+  }
+}
+@media (min-width: 767px) {
+  .footer a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1400) {
+  .footer a {
+    font-size: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#boton-carrito {
+  border: none;
+  color: royalblue;
+  font-size: 40px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+#boton-carrito:focus {
+  outline: none;
+}
+
+#contenedor-productos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.producto {
+  max-width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.precioProducto {
+  font-weight: 700;
+}
+
+.boton-agregar {
+  background-color: grey;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+}
+
+.boton-agregar:hover {
+  cursor: pointer;
+}
+
+.boton-agregar:focus {
+  outline: none;
+}
+
+.modal-contenedor {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-carrito {
+  position: relative;
+  background-color: grey;
+  min-width: 500px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all 0.5s;
+}
+
+.modal-active .modal-carrito {
+  margin-top: 0;
+}
+
+.modal-carrito h3 {
+  color: white;
+  padding-bottom: 5px;
+}
+
+.modal-carrito #carritoCerrar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: grey;
+}
+
+.modal-carrito #carritoCerrar:hover {
+  cursor: pointer;
+}
+
+.modal-carrito #carritoCerrar:focus {
+  outline: none;
+}
+
+.modal-carrito .precioProducto {
+  padding-top: 10px;
+  color: white;
+}
+
+.productoEnCarrito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productoEnCarrito:hover {
+  border-left: 5px solid black;
+}
+
+.boton-eliminar {
+  background-color: white;
+  color: red;
+  border: none;
+  font-size: 20px;
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+
+.boton-eliminar:focus {
+  outline: none;
+}
+
+#backMenu {
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border-color: black;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */

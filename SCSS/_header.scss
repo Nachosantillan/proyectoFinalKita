@@ -1,0 +1,27 @@
+.bg-black{
+	background-color: black	;
+	color: grey;
+}
+
+#siteHeader .miLogo{
+	background: url("../IMAGENES/kita.png") no-repeat;
+	width: 60px; 
+	height: 45px;
+	
+
+	
+	
+	background-size: cover;
+}
+
+.nav-link{
+	transition: 500ms;
+    &:hover{
+        transform: scale(1.1);
+}
+}
+
+.dropdown-item{
+    color: white;
+	background-color: #992323;
+}
